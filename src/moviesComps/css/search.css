@@ -1,0 +1,27 @@
+.search {
+    background: rgb(67, 90, 109);
+    padding: 0;
+    border-radius: 30px;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+input {
+    border: none !important;
+    background: rgb(67, 90, 109) !important;
+    color: #eee !important;
+    height: 50px;
+    border-top-left-radius: 20px !important;
+}
+
+.searchBtn {
+    border: none;
+    padding: 0 12px;
+    background: rgb(50, 73, 92);
+    font-size: 1.2em;
+    color:rgb(248, 235, 200);
+    border-bottom-right-radius: 20px !important;
+    border-top-right-radius: 5px;
+}

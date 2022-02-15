@@ -1,0 +1,11 @@
+.years_btn {
+    /* border: 1px solid blue; */
+    padding: 12px;
+    border-radius: 23px;
+    background: rgb(50, 73, 92);
+}
+
+.btn {
+    margin-left: 1%;
+    margin-right: 1%;
+}

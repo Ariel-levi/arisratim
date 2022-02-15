@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+/* links עיצוב ל */
+@import url(https://fonts.googleapis.com/css?family=Quando);
+*:after, *:before {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+* {margin:0;padding:0;border:0 none;position: relative; outline: none;
+}
+
+/* Scrollbar עיצוב ל */
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+::-webkit-sc
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555; 
+    border-radius: 30px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #888; 
+}
+
+/* =========================== */
+
+body {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.883);
+    font-family: 'Roboto', sans-serif;
+}
+/* =========================== */
+header {
+    min-height: 300px;
+}
+
+header .logo {
+    height: 200px;
+    width: 500px;
+}
+
+nav {
+    background: rgb(50, 73, 92);
+    min-height: 60px;
+    border-radius: 32px;
+    margin-top: -30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* links style */
+/* =========================== */
+
+nav .link {
+    color:rgb(248, 235, 200);
+    padding: 0 15px;
+    height: 60px;
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    font-size: 1.5em;
+    z-index: 1;
+}
+
+nav > .link:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: rgb(248, 235, 200);
+    visibility: hidden;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: .25s linear;
+  }
+  nav > .link:hover:before,
+  nav > .link:focus:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+
+  
+/* =========================== */
+main {
+    min-height: 85vh;
+    color: white;
+}
+/* =========================== */
+footer {
+    min-height: 48px;  
+    color: white;
+    background: rgb(50, 73, 92);
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+/* ===================== box_Animation */
+
+.box_Animation {
+    height: 300px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+@media (max-width: 970px) {
+    header .logo {
+        height: 170px;
+        width: 330px;
+    }
+    
+}
