@@ -21,11 +21,7 @@ function AppMovies(props){
     }, [])
     
     const doApi = async (_Search) => {
-<<<<<<< HEAD
         let url = `https://www.omdbapi.com/?s=${_Search}&apikey=${API_KEY}`;
-=======
-        let url = `https://www.omdbapi.com/?s=${_Search}&apikey=API_KEY`;
->>>>>>> e18019c83ed1df69492b4c1dae796788e216212d
         let resp = await axios.get(url);
         // console.log(resp.data.Search);
         setMoviesAr(resp.data.Search);
