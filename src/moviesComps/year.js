@@ -21,11 +21,7 @@ function Year(props){
     }, [year])
     
     const doApi = async (_Search,_Year) => {
-<<<<<<< HEAD
         let url = `https://www.omdbapi.com/?s=${_Search}&y=${_Year}&apikey=${API_KEY}`;
-=======
-        let url = `https://www.omdbapi.com/?s=${_Search}&y=${_Year}&apikey=API_KEY`;
->>>>>>> e18019c83ed1df69492b4c1dae796788e216212d
         let resp = await axios.get(url);
         // console.log(resp.data.Search);
         // setMoviesAr(resp.data.Search);

@@ -16,11 +16,7 @@ function Video(props){
     }, [id])
     
     const doApi = async (_VideoId) => {
-<<<<<<< HEAD
         let url = `https://www.omdbapi.com/?i=${_VideoId}&apikey=${API_KEY}`;
-=======
-        let url = `https://www.omdbapi.com/?i=${_VideoId}&apikey=API_KEY`;
->>>>>>> e18019c83ed1df69492b4c1dae796788e216212d
         let resp = await axios.get(url);
         // console.log(resp.data);
         setVideoAr(resp.data);
