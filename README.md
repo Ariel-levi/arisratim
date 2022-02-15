@@ -5,7 +5,7 @@ This is Websie in React for movies Info i used OMDB API
   
  Website Home Img 🏠  
  
- ![screencapture-arisratim-netlify-app-2022-02-03-01_06_47](https://user-images.githubusercontent.com/38177520/152252742-dc9343a0-51ef-4e64-9d20-bb99a20ff32a.png)
+![screencapture-arisratim-netlify-app-2022-02-15-14_41_41](https://user-images.githubusercontent.com/38177520/154064212-99a8cd64-505b-4823-bdb9-3b7bd4ccdb79.png)
 
 Movie Info Img 🚀
 
